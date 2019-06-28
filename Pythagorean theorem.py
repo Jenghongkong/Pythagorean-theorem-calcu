@@ -1,7 +1,7 @@
 import math
 print("a^2 + b^2 = c^2")
 print("Enter x for unknow number")
-choose = input("Which Fomula You want to count(a,b,c) ?:")
+choose = input("Which side[a,b,c] do you want to count ?:")
 
 if(choose == "a"):
     b = int(input("length2: "))
@@ -19,3 +19,6 @@ if(choose == "c"):
     a = int(input("length1: "))
     b = int(input("length2: "))
     print(math.sqrt(a**2 + b**2))
+
+else:
+    print("Error")
