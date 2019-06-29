@@ -1,6 +1,5 @@
 import math
 print("a^2 + b^2 = c^2")
-print("Enter x for unknow number")
 choose = input("Which side[a,b,c] do you want to count ?:")
 
 if(choose == "a"):
